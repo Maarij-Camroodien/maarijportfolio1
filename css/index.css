@@ -1,0 +1,51 @@
+
+
+.navbar-brand {
+    font-size: 30px;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.sticky-footer {
+    text-align: center;
+    position: sticky;
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 400px;
+    height: 600px;
+    border-radius: 2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.par{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+}
