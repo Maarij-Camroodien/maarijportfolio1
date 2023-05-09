@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+
 .navbar-brand {
     font-size: 30px;
     color: white;
-    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
 }
 
 .sticky-footer {
@@ -9,7 +12,6 @@
     position: sticky;
     height: 100%;
     background-color: black;
-    margin: 0;
     color: white;
 }
 

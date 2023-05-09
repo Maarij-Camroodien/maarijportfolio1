@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 .navbar-brand {
     font-size: 30px;
     color: white;
+    font-family: 'Kanit', sans-serif;
 }
 
 body {
@@ -14,12 +15,7 @@ body {
     position: sticky;
     height: 100%;
     background-color: black;
-    margin: 0;
     color: white;
-}
-
-h3 {
-    padding: 10px;
 }
 
 .nav-link {
@@ -45,7 +41,9 @@ h3 {
 
 .par{
     font-size: xx-large;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: bolder;
     padding: 20px;
+    margin-top: 160px;
 }
+

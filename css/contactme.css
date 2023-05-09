@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
 .navbar-brand {
     font-size: 30px;
     color: white;
-    overflow: hidden;
+    font-family: 'Kanit', sans-serif;
 }
 
 .sticky-footer {
@@ -9,7 +11,6 @@
     position: sticky;
     height: 100%;
     background-color: black;
-    margin: 0;
     color: white;
 }
 
@@ -19,4 +20,33 @@
 
 .nav-link {
     color: white;
+}
+
+.card {
+    width: 40rem;
+    height: fit-content;
+    border-width: 10px;
+    border-color: black;
+    margin-bottom: 5px;
+}
+
+.card-header {
+    font-size: 25px;
+}
+
+.list-group-item {
+    font-size: 20px;
+    text-align: center;
+}
+
+.contactcont {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.subbutton {
+    width: 30px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
