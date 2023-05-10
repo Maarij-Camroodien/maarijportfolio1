@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
 .navbar-brand {
     font-size: 30px;
     color: white;
@@ -8,10 +12,11 @@
 
 .sticky-footer {
     text-align: center;
-    position: sticky;
-    height: 100%;
     background-color: black;
     color: white;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }
 
 .navbar {
@@ -25,13 +30,14 @@
 .card {
     width: 40rem;
     height: fit-content;
-    border-width: 10px;
+    border-width: 5px;
     border-color: black;
     margin-bottom: 5px;
 }
 
 .card-header {
     font-size: 25px;
+    background-color: white;
 }
 
 .list-group-item {
@@ -45,8 +51,21 @@
 }
 
 .subbutton {
-    width: 30px;
-    height: 20px;
+    /* width: 30px;
+    height: 20px; */
     margin-bottom: 10px;
     margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+.contacthead {
+    margin-bottom: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 45px;
 }
