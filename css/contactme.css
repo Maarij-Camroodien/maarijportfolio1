@@ -69,3 +69,7 @@
 .card {
     margin-top: 45px;
 }
+
+::-webkit-scrollbar{
+    display: none;
+}

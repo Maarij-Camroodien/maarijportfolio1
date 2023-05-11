@@ -10,10 +10,6 @@
     font-family: 'Kanit', sans-serif;
 }
 
-body {
-    min-height: 100vh;
-}
-
 .sticky-footer {
     text-align: center;
     position: sticky;
@@ -45,9 +41,54 @@ body {
 
 .par{
     font-size: xx-large;
-    /* font-family: sans-serif; */
     font-weight: bolder;
     padding: 20px;
     margin-top: 160px;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (min-width: 300px ) and (max-width: 600px) {
+    .content {
+        display: inline-block;
+        justify-content: center;
+        height: 100%;
+        margin-left: 2rem;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .par {
+        margin-top: 5px;
+        padding: 0;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 255px;
+        height: 400px;
+        margin-left: -0.5rem;
+    }
+
+    .btn {
+        width: 70px;
+        height: 35px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 500px) {
+    .logo {
+        margin-left: 1rem;
+    }
+}

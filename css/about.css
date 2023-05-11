@@ -152,3 +152,7 @@ h3 {
 .progress-bar-cust {
     background-color: yellow;
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
