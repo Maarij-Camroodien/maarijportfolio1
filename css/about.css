@@ -9,12 +9,17 @@
     margin-bottom: 20px;
     margin: 10px;
     text-align: center;
+    text-decoration: underline;
 }
 
 .navbar-brand {
     font-size: 30px;
     color: white;
     font-family: 'Kanit', sans-serif;
+}
+
+.navbar-brand:hover {
+    color: grey;
 }
 
 .sticky-footer {
@@ -30,6 +35,10 @@
 
 .nav-link {
     color: white;
+}
+
+.nav-link:hover{
+    color: grey;
 }
 
 .content{
@@ -54,6 +63,11 @@
 
 .workandex {
     margin-top: 200px;
+    text-decoration: underline;
+}
+
+.skillshead {
+    text-decoration: underline;
 }
 
 .timeline {
@@ -88,10 +102,11 @@
     width: 100%;
     left: 0;
 }
+
 .carousel-indicators button h4 {
     margin-top: -41px;
     position: absolute;
-    left: 52%;
+    left: 43%;
     transform: translateX(-50);
 }
  
@@ -112,8 +127,7 @@ h3 {
 .progress-card {
     width: 1000px;
     height: 100px;
-    margin-left: 230px;
-    
+    margin-left: 230px;  
 }
 
 .imgss1 {
@@ -155,4 +169,93 @@ h3 {
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+@media screen and (min-width: 300px ) and (max-width: 600px) {
+    .content {
+        display: inline-block;
+    }
+    
+    .logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-left: 100px;
+    }
+
+    .par{
+        font-size: small;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .workandex {
+        margin-top: 10px;
+    }
+
+    .carousel-indicators button h4 {
+        left: 15%;
+    }
+    
+    .progress-card {
+        width: 250px;
+        height: 20px; 
+        margin-left: 30px;
+        margin-bottom: 16rem;
+    }
+
+    .imgss1 {
+        width: 33px;
+        height: 30px;
+        margin-bottom: 2px;
+    }
+    
+    .imgss2 {
+        width: 25px;
+        height: 35px;
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+    
+    .imgss3 {
+        width: 32px;
+        height: 28px;
+        margin-left: 2px;
+        margin-bottom: 2px;
+    }
+    
+    .imgss4 {
+        width: 36px;
+        height: 32px;
+    }
+
+}
+
+@media screen and (max-width: 700px) and (min-width: 600px) {
+    .logo{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+        margin-top: 3rem;
+        margin-bottom: 5px;
+        margin-left: 1rem;
+    }
+
+    .par{
+        font-size: small;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .carousel-indicators button h4 {
+        left: 35%;
+    }
+
+    .progress-card {
+        width: 450px;
+        height: 20px; 
+        margin-left: 8rem;
+        margin-bottom: 20rem;
+    }
 }

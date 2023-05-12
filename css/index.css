@@ -10,16 +10,25 @@
     font-family: 'Kanit', sans-serif;
 }
 
+.navbar-brand:hover {
+    color: grey;
+}
+
 .sticky-footer {
     text-align: center;
-    position: sticky;
-    height: 100%;
     background-color: black;
     color: white;
+    bottom: 0;
+    width: 100%;
+    /* position: fixed; */
 }
 
 .nav-link {
     color: white;
+}
+
+.nav-link:hover{
+    color: grey;
 }
 
 .navbar {
@@ -29,14 +38,15 @@
 .content{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .logo{
-    width: 400px;
-    height: 600px;
+    width: 330px;
+    height: 500px;
     border-radius: 2rem;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 28px;
 }
 
 .par{
@@ -74,9 +84,10 @@
     }
 
     .logo {
-        width: 255px;
+        width: 270px;
         height: 400px;
-        margin-left: -0.5rem;
+        margin-left: -1rem;
+        margin-top: 0.5rem;
     }
 
     .btn {
@@ -87,8 +98,10 @@
     }
 }
 
-@media screen and (max-width: 700px) and (min-width: 500px) {
+@media screen and (max-width: 700px) and (min-width: 600px) {
     .logo {
         margin-left: 1rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }

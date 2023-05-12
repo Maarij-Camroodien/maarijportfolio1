@@ -2,12 +2,17 @@
 
 * {
     font-family: 'Kanit', sans-serif;
+    /* overflow-x: hidden; */
 }
 
 .navbar-brand {
     font-size: 30px;
     color: white;
     font-family: 'Kanit', sans-serif;
+}
+
+.navbar-brand:hover {
+    color: grey;
 }
 
 .sticky-footer {
@@ -28,6 +33,10 @@
     color: white;
 }
 
+.nav-link:hover{
+    color: grey;
+}
+
 h3 {
     margin-bottom: 20px;
     margin-top: 5px;
@@ -35,37 +44,81 @@ h3 {
     text-align: center;
 }
 
-.proj-head {
-    margin-top: 20px;
-}
-
-.projects-content {
-    margin-bottom: 50px;
-}
-
-.card-testi {
-    float: left;
-    margin-left: 12rem;
-}
-
-.second-r {
-    float: left;
-    margin-left: 20rem;
-}
-
 .card-proj {
-    float: left;
-    margin-left: 12rem;
-    margin-bottom: 10rem;
-    height: 20px;
-    width: 30px;
+    margin-left: 7rem;
+    margin-bottom: 5rem;
 }
 
 .images {
     width: 10rem;
-    height: 5rem;
+    height: 8rem;
+}
+
+.card-testi {
+    margin-left: 7rem;
+    margin-bottom: 2rem;
+}
+
+#uthie {
+    height: 400px;
+    width: 270px;
+}
+
+.testimonial-content {
+    margin-bottom: 5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-text {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
 }
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+@media screen and (min-width: 300px ) and (max-width: 600px) {
+
+    .testimonial-content {
+        display: inline-block;
+    }
+    
+    .projects-content {
+        display: inline-block;
+    }
+
+    .card-proj {
+        margin-left: 4.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .card-testi {
+        margin-left: 1rem;
+    }
+
+    .card-proj {
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 600px) {
+    .card-testi {
+        margin-left: 8rem;
+    }
+
+    .card-testi {
+        margin-bottom: 3rem;
+    }
+
+    .card-proj {
+        margin-left: 11rem;
+    }
+    
 }

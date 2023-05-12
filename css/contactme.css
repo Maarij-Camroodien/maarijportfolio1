@@ -10,13 +10,16 @@
     font-family: 'Kanit', sans-serif;
 }
 
+.navbar-brand:hover {
+    color: grey;
+}
+
 .sticky-footer {
     text-align: center;
     background-color: black;
     color: white;
     bottom: 0;
     width: 100%;
-    position: fixed;
 }
 
 .navbar {
@@ -25,6 +28,10 @@
 
 .nav-link {
     color: white;
+}
+
+.nav-link:hover{
+    color: grey;
 }
 
 .card {
@@ -48,6 +55,7 @@
 .contactcont {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 6rem;
 }
 
 .subbutton {
@@ -64,6 +72,7 @@
     margin-bottom: 20px;
     margin-top: 5px;
     text-align: center;
+    text-decoration: underline;
 }
 
 .card {
@@ -72,4 +81,37 @@
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+@media screen and (min-width: 300px ) and (max-width: 600px) {
+
+    .contactcont {
+        display: inline-block;
+        margin-left: 0.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-header {
+        font-size: medium;
+    }
+
+    .list-group-item {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .card {
+        width: 18rem;
+    }
+
+    .contacthead {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 600px) {
+    .contactcont {
+        display: inline-block;
+        margin-left: 2rem;
+    }
 }
